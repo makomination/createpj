@@ -1,10 +1,11 @@
+export CREATEPJ_HOME="$( cd "$( dirname "$0" )" && pwd )"
+
 #!/usr/local/bin/zsh
 function createpj() {
-    cd
+    cd ${CREATEPJ_HOME}
     python createpj.py $1
-    cd /PATH/TO/YOUR_PROJECT/$1
     git init
-    git remote add origin git@github.com:YOUR_USERNAME/$1.git
+    git remote add origin git@github.com:${GITHUB_USERNAME}/$1.git
     touch README.md
     touch .gitignore
     git add .
