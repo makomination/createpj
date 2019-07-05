@@ -1,4 +1,11 @@
-### Install: 
+# createpj
+
+Create your new empty project folder with creating empty README and .gitignore, and do initial git setup on your local machine.\
+Also, create new project remote github repository and push to it.\
+Finally, open your project in vscode.
+
+
+## Install: 
 ```zsh
 git clone "git@github.com:makomination/createpj.git"
 cd createpj
@@ -8,13 +15,13 @@ code .env
 source .my_commands.sh
 ```
 
-### Usage:
+## Usage:
 To run the script type in 
 ```zsh
 createpj <name of your new project>
 ```
 
-### Env File Format:
+## Env File Format:
 ```zsh
 GITHUB_USERNAME="Username123"
 GITHUB_PASSWORD="Password123"
