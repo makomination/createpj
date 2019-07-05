@@ -4,6 +4,10 @@ Create your new empty project folder with creating empty README and .gitignore, 
 Also, create new project remote github repository and push to it.\
 Finally, open your project in vscode.
 
+## Prerequisites
+Neccesary to install below and add them to path(named python and pip respectively).
+* Python 3
+* pip
 
 ## Install: 
 ```zsh
@@ -27,3 +31,6 @@ GITHUB_USERNAME="Username123"
 GITHUB_PASSWORD="Password123"
 MYPROJECTS_HOME="/path/to/your/project"
 ```
+## Built With
+* Python3.7.3
+* zsh
