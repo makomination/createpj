@@ -1,15 +1,16 @@
 # createpj
-
-Create your new empty project folder with creating empty README and .gitignore, and do initial git setup on your local machine.\
+Type `createpj <Your new project name>` in your terminal!!\
+Automate all your tasks that are needed to create your new empty project folder with creating empty README and .gitignore, and carry out initial git setup on your local machine.\
 Also, create new project remote github repository and push to it.\
 Finally, open your project in vscode.
 
 ## Prerequisites
+Required to use **BASH** or **ZSH**.\
 Neccesary to install below and add them to path(named python and pip respectively).
 * Python 3
 * pip
 
-## Install: 
+## Install
 ```zsh
 git clone "git@github.com:makomination/createpj.git"
 cd createpj
@@ -19,13 +20,13 @@ code .env
 source .my_commands.sh
 ```
 
-## Usage:
+## Usage
 To run the script type in 
 ```zsh
 createpj <name of your new project>
 ```
 
-## Env File Format:
+## Env File Format
 ```zsh
 GITHUB_USERNAME="Username123"
 GITHUB_PASSWORD="Password123"
