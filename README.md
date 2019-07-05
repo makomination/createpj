@@ -9,8 +9,9 @@ source .my_commands.sh
 ```
 
 ### Usage:
+To run the script type in 
 ```zsh
-To run the script type in 'create <name of your folder>'
+createpj <name of your new project>
 ```
 
 ### Env File Format:
