@@ -25,4 +25,4 @@ def createpj(pjName):
 if __name__ == "__main__":
     pjpath = createpj(sys.argv[1])
     print(pjpath)
-    sys.exit(0)
+    # sys.exit(0)
