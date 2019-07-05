@@ -15,7 +15,7 @@ To run the script type in 'create <name of your folder>'
 
 ### Env File Format:
 ```zsh
-USERNAME="Username123"
-PASSWORD="Password123"
-FILEPATH="/path/to/your/project/"
+GITHUB_USERNAME="Username123"
+GITHUB_PASSWORD="Password123"
+MYPROJECTS_HOME="/path/to/your/project"
 ```
