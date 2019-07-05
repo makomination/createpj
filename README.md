@@ -4,7 +4,7 @@ git clone "git@github.com:makomination/createpj.git"
 cd createpj
 pip install -r requirements.txt
 code .env
-Then open the .env file and store your username, password, and desired file destination. Use the provided format at the bottom of this README.
+# Then open the .env file and store your username, password, and desired file destination. Use the provided format at the bottom of this README.
 source .my_commands.sh
 ```
 
