@@ -5,12 +5,6 @@ function createpj() {
     cd ${CREATEPJ_HOME}
     pjpath=`python createpj.py $1`
     cd $pjpath
-    git init
-    git remote add origin git@github.com$pjpath/$1.git
-    touch README.md
-    touch .gitignore
-    git add .
-    git commit -m 'initial commit'
-    git push -u origin master
+    echo "Successfully created a new project \"$1\""
     code .
 }
