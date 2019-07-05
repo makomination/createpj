@@ -6,7 +6,7 @@ function createpj() {
     pjpath=`python createpj.py $1`
     cd $pjpath
     git init
-    git remote add origin git@github.com:${GITHUB_USERNAME}/$1.git
+    git remote add origin git@github.com$pjpath/$1.git
     touch README.md
     touch .gitignore
     git add .
