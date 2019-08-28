@@ -1,3 +1,9 @@
+# editors
+.vscode
+
+# settings
 .env
+
+# python
 .pyc
 __pycache__
